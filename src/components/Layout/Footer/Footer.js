@@ -9,7 +9,7 @@ export function Footer() {
         <div className={styles.columns}>
           <div>
             <Link href="/">
-              <Image src="/images/logo.png" alt="Gaming" />
+              <Image src="/images/PUNTOCRUJIENTE.png" alt="Gaming" />
             </Link>
           </div>
 
@@ -23,15 +23,15 @@ export function Footer() {
           </div>
 
           <div className={styles.social}>
-            <Button as="a" href="#" circular color="facebook" icon="facebook" />
-            <Button as="a" href="#" circular color="twitter" icon="twitter" />
-            <Button as="a" href="#" circular color="linkedin" icon="linkedin" />
-            <Button as="a" href="#" circular color="youtube" icon="youtube" />
+            <Button as="a" href="#" target="_blank" rel="noopener noreferrer" circular color="facebook" icon="facebook" />
+            <Button as="a" href="#" target="_blank" rel="noopener noreferrer" circular color="twitter" icon="twitter" />
+            <Button as="a" href="https://www.instagram.com/fruttos_secos?igsh=cG81aWQ0cjdxbDhi&utm_source=qr" target="_blank" rel="noopener noreferrer" circular color="instagram" icon="instagram" />
+            <Button as="a" href="#" target="_blank" rel="noopener noreferrer" circular color="youtube" icon="youtube" />
           </div>
         </div>
 
         <div className={styles.copyright}>
-          <span>Copyright © 2023 Gaming - All rights reserved</span>
+          <span>Copyright © 2026 Gaming - All rights reserved</span>
         </div>
       </Container>
     </div>

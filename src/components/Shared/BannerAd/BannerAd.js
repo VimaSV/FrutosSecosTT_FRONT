@@ -14,7 +14,7 @@ export function BannerAd(props) {
       <div className={styles.infoContainer}>
         <Container>
           <h2>{title}</h2>
-          <h3>{subtitle}</h3>
+          <h3 style={{ whiteSpace: "pre-line" }}>{subtitle}</h3>
 
           <Button as={Link} href={btnLink} primary>
             {btnTitle}

@@ -21,7 +21,7 @@ export function HeaderCart() {
     <div className={styles.headerCart}>
       <div className={styles.left}>
         <Link href="/">
-          <Image src="/images/logo.png" alt="Gaming" />
+          <Image src="/images/PUNTOCRUJIENTE.png" alt="Gaming" />
         </Link>
       </div>
 
